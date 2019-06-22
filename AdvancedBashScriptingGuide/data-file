@@ -1,0 +1,49 @@
+# error free
+# (옮긴이:
+# 제일 윗줄에 한글이 들어가 있으면 file data-file 이라고 했을 때 
+# data-file: International language text
+# 라고 나오네요. 이것 때문인지 예제에서 이 파일을 . 하면 에러가 납니다.
+# 맨 위의 error free 는 이 에러를 피하기 위한 것입니다.)
+#
+#
+# 이것은 스크립트에 의해 읽히는 데이타 파일입니다.
+# 이런 종류의 파일은 보통 변수나 함수등을 담고 있습니다.
+# 쉘 스크립트에 의해 'source'나 '.'로 적재될 수 있습니다.
+
+# 변수를 초기화 합시다.
+
+variable1=22
+variable2=474
+variable3=5
+variable4=97
+
+message1="안녕, 잘 지냈어?"
+message2="이젠 됐어. 안녕."
+
+print_message ()
+{
+# 넘어온 어떤 메세지도 다 에코시킴.
+
+  if [ -z "$1" ]
+  then
+    return 1
+    # 인자가 없으면 에러.
+  fi
+
+  echo
+
+  until [ -z "$1" ]
+  do
+    # 함수로 넘어온 인자를 하나씩 모두 처리.
+    echo -n "$1"
+    # 라인 피드를 없애면서 한 번에 하나씩 에코.
+    echo -n " "
+    # 낱말 사이에 빈 칸을 집어 넣음.
+    shift
+    # 다음.
+  done  
+
+  echo
+
+  return 0
+}  

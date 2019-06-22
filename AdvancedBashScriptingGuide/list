@@ -1,0 +1,30 @@
+합계 108
+11
+-rwxrwxr-x 1 shinjaehun shinjaehun  180 11월 14 19:27 abs4-1.reading-fstab.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  201 11월 14 19:27 abs4-3.backup-changed-recent24h.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  491 11월 14 19:27 abs4.dpkg-check.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun 2813 11월 14 19:27 abs5-1.variable-example1.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  599 11월 14 19:27 abs5-2.variable-example2.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  292 11월 14 19:27 abs5-3.variable-example3.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  731 11월 14 19:27 abs5-4.int-or-string.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun  857 11월 14 19:27 abs5-5.positional-parameter-example.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun 1191 11월 14 19:27 abs6-2.escaped.sh
+-rwxrwxr-x 1 shinjaehun shinjaehun 1516 11월 14 19:27 abs7-1.true-false-test.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 2152 11월 14 15:00 abs7-5.string-or-null.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  237 11월 14 14:31 abs7.if-without-bracket.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  283 11월 14 14:44 abs7.test-with-brackets.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  908 11월 14 20:39 abs8-1.arithmatic.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 1601 11월 18 17:21 abs9-10.parameter-substitution.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  444 11월 18 17:32 abs9-11.length-of-variable.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 2074 11월 18 17:39 abs9-14.pattern-matching-for-parsing.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 1029 11월 18 18:12 abs9-17.indirect-referenced.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  974 11월 18 18:17 abs9-18.indirect-referenced-awk.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 1348 11월 14 20:12 abs9-2.timeout-input.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  851 11월 14 20:37 abs9-5.arglist-star-and-at.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun 2924 11월 18 14:30 abs9-6.incoherent-star-and-at.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  616 11월 18 14:42 abs9-7.empty-ifs-start-and-at.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  555 11월 14 19:57 abs9.default-value-of-read.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  330 11월 14 20:06 abs9.internal-variable-seconds.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun  465 11월 18 17:08 abs9.parameter-declar.sh
+-rw-rw-r-- 1 shinjaehun shinjaehun    0 11월 18 18:18 list
+-rw-rw-r-- 1 shinjaehun shinjaehun  636 11월 14 21:10 test.sh
